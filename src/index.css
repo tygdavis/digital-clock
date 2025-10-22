@@ -132,10 +132,9 @@ body {
   width: 100%;
 }
 
-.timer-shell form input,
-.timer-shell form button {
-  width: 100%;
+.timer-shell form input {
   box-sizing: border-box;
+  width: 100%;
 }
 
 .timer-shell form input {
@@ -183,5 +182,25 @@ body {
 
 .timer-controls button:only-child {
   grid-column: 1 / -1;
+}
+
+.timer-form {
+  position: relative;
+}
+
+.cancel-btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  top: -0.2rem;
+  right: 0rem;
+  width: auto;
+  height: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 1px 1px 0px black;
 }
 

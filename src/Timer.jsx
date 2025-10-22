@@ -99,6 +99,8 @@ return (
         start();
         }}
     >
+        <button type="button" className="cancel-btn" onClick={reset}>X</button>
+
         <label>
         Minutes
         <input
